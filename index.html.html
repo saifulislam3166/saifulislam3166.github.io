@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Saiful Islam | Commercial & Export Professional</title>
+
+<meta name="description" content="Saiful Islam - Commercial & Export Professional specializing in export documentation, SAP, logistics, shipping and supply chain operations.">
+
+<style>
+
+/* =========================
+   GLOBAL
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    color:#273142;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:92%;
+    max-width:1150px;
+    margin:auto;
+}
+
+
+/* =========================
+   TOP NAVIGATION
+========================= */
+
+.navbar{
+    background:#ffffff;
+    border-bottom:1px solid #e7ebf0;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.nav-container{
+    max-width:1150px;
+    width:92%;
+    margin:auto;
+    min-height:70px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:800;
+    color:#0d47a1;
+}
+
+.logo span{
+    color:#1e88e5;
+}
+
+.nav-links{
+    display:flex;
+    gap:28px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:#4b5563;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#0d47a1;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    background:linear-gradient(135deg,#0d47a1,#1565c0);
+    color:white;
+    padding:75px 0;
+}
+
+.hero-content{
+    display:grid;
+    grid-template-columns:180px 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.profile-photo{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid rgba(255,255,255,.9);
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.hero h1{
+    font-size:46px;
+    line-height:1.15;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    font-size:22px;
+    font-weight:400;
+    margin-bottom:15px;
+    color:#e3f2fd;
+}
+
+.hero-description{
+    max-width:700px;
+    font-size:16px;
+    color:#eaf4ff;
+}
+
+.hero-buttons{
+    margin-top:25px;
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 22px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:white;
+    color:#0d47a1;
+}
+
+.btn-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.btn-outline{
+    border:1px solid rgba(255,255,255,.7);
+    color:white;
+}
+
+.btn-outline:hover{
+    background:white;
+    color:#0d47a1;
+}
+
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+
+.main{
+    padding:50px 0;
+}
+
+.cv-grid{
+    display:grid;
+    grid-template-columns:300px 1fr;
+    gap:30px;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.card{
+    background:white;
+    border-radius:14px;
+    padding:25px;
+    margin-bottom:25px;
+    border:1px solid #e8edf3;
+    box-shadow:0 5px 20px rgba(20,40,80,.06);
+}
+
+.card-title{
+    font-size:18px;
+    color:#0d47a1;
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:2px solid #edf2f7;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-item{
+    margin-bottom:18px;
+}
+
+.contact-label{
+    display:block;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:#8a94a6;
+    margin-bottom:3px;
+}
+
+.contact-item a,
+.contact-item span{
+    color:#354052;
+    font-size:14px;
+    word-break:break-word;
+}
+
+.contact-item a:hover{
+    color:#0d47a1;
+}
+
+
+/* =========================
+   SKILLS
+========================= */
+
+.skill{
+    margin-bottom:18px;
+}
+
+.skill-name{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:7px;
+}
+
+.skill-bar{
+    height:7px;
+    background:#edf1f5;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.skill-level{
+    height:100%;
+    background:#1565c0;
+    border-radius:20px;
+}
+
+
+/* =========================
+   EDUCATION
+========================= */
+
+.education-item{
+    margin-bottom:18px;
+}
+
+.education-item:last-child{
+    margin-bottom:0;
+}
+
+.education-degree{
+    font-weight:700;
+    color:#273142;
+}
+
+.education-school{
+    color:#687386;
+    font-size:13px;
+}
+
+
+/* =========================
+   SUMMARY
+========================= */
+
+.section{
+    margin-bottom:30px;
+}
+
+.section-heading{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:18px;
+}
+
+.section-heading h2{
+    font-size:25px;
+    color:#172033;
+}
+
+.section-line{
+    flex:1;
+    height:1px;
+    background:#dfe5ec;
+}
+
+.summary{
+    color:#586477;
+    font-size:15px;
+}
+
+
+/* =========================
+   EXPERIENCE TIMELINE
+========================= */
+
+.timeline{
+    position:relative;
+    margin-left:10px;
+    padding-left:32px;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:5px;
+    bottom:5px;
+    width:2px;
+    background:#d9e4f1;
+}
+
+.experience{
+    position:relative;
+    background:white;
+    padding:25px;
+    border-radius:14px;
+    border:1px solid #e8edf3;
+    box-shadow:0 5px 20px rgba(20,40,80,.05);
+    margin-bottom:25px;
+}
+
+.experience::before{
+    content:"";
+    position:absolute;
+    width:13px;
+    height:13px;
+    background:#1565c0;
+    border:4px solid #eaf2fb;
+    border-radius:50%;
+    left:-41px;
+    top:28px;
+}
+
+.experience-header{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    align-items:flex-start;
+}
+
+.job-title{
+    color:#0d47a1;
+    font-size:19px;
+    font-weight:700;
+}
+
+.company{
+    color:#4b5563;
+    font-weight:600;
+    margin-top:3px;
+}
+
+.duration{
+    background:#eaf2fb;
+    color:#0d47a1;
+    padding:5px 11px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:700;
+    white-space:nowrap;
+}
+
+.experience ul{
+    margin-top:17px;
+    padding-left:20px;
+}
+
+.experience li{
+    margin-bottom:8px;
+    color:#596579;
+    font-size:14px;
+}
+
+.experience li::marker{
+    color:#1565c0;
+}
+
+
+/* =========================
+   SKILL TAGS
+========================= */
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.tag{
+    background:#eef4fb;
+    color:#14549a;
+    padding:7px 11px;
+    border-radius:6px;
+    font-size:12px;
+    font-weight:600;
+}
+
+
+/* =========================
+   HIGHLIGHTS
+========================= */
+
+.highlights{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.highlight{
+    padding:20px;
+    border-radius:12px;
+    background:#f7f9fc;
+    border:1px solid #e8edf3;
+}
+
+.highlight-number{
+    font-size:25px;
+    font-weight:800;
+    color:#0d47a1;
+}
+
+.highlight-text{
+    font-size:13px;
+    color:#687386;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#101828;
+    color:#b7c0cd;
+    text-align:center;
+    padding:28px 15px;
+    font-size:13px;
+}
+
+footer strong{
+    color:white;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:850px){
+
+    .nav-links{
+        display:none;
+    }
+
+    .hero{
+        padding:50px 0;
+    }
+
+    .hero-content{
+        grid-template-columns:1fr;
+        text-align:center;
+        justify-items:center;
+    }
+
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero h2{
+        font-size:19px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .cv-grid{
+        grid-template-columns:1fr;
+    }
+
+    .highlights{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+@media(max-width:550px){
+
+    .container{
+        width:94%;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+
+    .hero h2{
+        font-size:17px;
+    }
+
+    .profile-photo{
+        width:145px;
+        height:145px;
+    }
+
+    .experience-header{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .duration{
+        display:inline-block;
+    }
+
+    .highlights{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:20px;
+    }
+
+    .experience{
+        padding:20px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<nav class="navbar">
+
+<div class="nav-container">
+
+<div class="logo">
+Saiful<span>.</span>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<header class="hero">
+
+<div class="container hero-content">
+
+<img
+src="profile.jpg"
+alt="Saiful Islam"
+class="profile-photo"
+>
+
+<div>
+
+<h1>Saiful Islam</h1>
+
+<h2>Commercial & Export Professional</h2>
+
+<p class="hero-description">
+
+5+ years of experience in commercial operations, export documentation,
+SAP ERP, shipping coordination, logistics and supply chain activities.
+
+</p>
+
+<div class="hero-buttons">
+
+<a
+href="SAIFUL ISLAM.pdf"
+target="_blank"
+class="btn btn-primary"
+>
+Download CV
+</a>
+
+<a
+href="https://www.linkedin.com/in/saiful-islam-216aa137b"
+target="_blank"
+class="btn btn-outline"
+>
+LinkedIn Profile
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+
+<!-- =========================
+     MAIN
+========================= -->
+
+<main class="main">
+
+<div class="container cv-grid">
+
+
+<!-- =========================
+     SIDEBAR
+========================= -->
+
+<aside>
+
+
+<!-- CONTACT -->
+
+<div class="card" id="contact">
+
+<h3 class="card-title">Contact</h3>
+
+<div class="contact-item">
+
+<span class="contact-label">Email</span>
+
+<a href="mailto:saifuldiu27@gmail.com">
+saifuldiu27@gmail.com
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<span class="contact-label">Phone</span>
+
+<a href="tel:+8801707603166">
++8801707603166
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<span class="contact-label">LinkedIn</span>
+
+<a
+href="https://www.linkedin.com/in/saiful-islam-216aa137b"
+target="_blank"
+>
+linkedin.com/in/saiful-islam-216aa137b
+</a>
+
+</div>
+
+</div>
+
+
+<!-- CORE SKILLS -->
+
+<div class="card" id="skills">
+
+<h3 class="card-title">Core Skills</h3>
+
+
+<div class="skill">
+
+<div class="skill-name">
+
+<span>Export Documentation</span>
+<span>95%</span>
+
+</div>
+
+<div class="skill-bar">
+<div class="skill-level" style="width:95%"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-name">
+
+<span>Commercial Operations</span>
+<span>90%</span>
+
+</div>
+
+<div class="skill-bar">
+<div class="skill-level" style="width:90%"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-name">
+
+<span>SAP ERP</span>
+<span>85%</span>
+
+</div>
+
+<div class="skill-bar">
+<div class="skill-level" style="width:85%"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-name">
+
+<span>Microsoft Excel</span>
+<span>90%</span>
+
+</div>
+
+<div class="skill-bar">
+<div class="skill-level" style="width:90%"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-name">
+
+<span>Shipping & Logistics</span>
+<span>88%</span>
+
+</div>
+
+<div class="skill-bar">
+<div class="skill-level" style="width:88%"></div>
+</div>
+
+</div>
+
+
+<div class="skill">
+
+<div class="skill-name">
+
+<span>Supply Chain</span>
+<span>82%</span>
+
+</div>
+
+<div class="skill-bar">
+<div class="skill-level" style="width:82%"></div>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- SOFTWARE -->
+
+<div class="card">
+
+<h3 class="card-title">Tools & Expertise</h3>
+
+<div class="tags">
+
+<span class="tag">SAP ERP</span>
+
+<span class="tag">MS Excel</span>
+
+<span class="tag">Export Documentation</span>
+
+<span class="tag">LC Documentation</span>
+
+<span class="tag">Freight Coordination</span>
+
+<span class="tag">Shipment Tracking</span>
+
+<span class="tag">Commercial Operations</span>
+
+<span class="tag">Problem Solving</span>
+
+</div>
+
+</div>
+
+
+<!-- EDUCATION -->
+
+<div class="card" id="education">
+
+<h3 class="card-title">Education</h3>
+
+
+<div class="education-item">
+
+<div class="education-degree">
+EMBA
+</div>
+
+<div class="education-school">
+East West University
+</div>
+
+</div>
+
+
+<div class="education-item">
+
+<div class="education-degree">
+BBA
+</div>
+
+<div class="education-school">
+Dhaka International University
+</div>
+
+</div>
+
+</div>
+
+</aside>
+
+
+<!-- =========================
+     MAIN CV CONTENT
+========================= -->
+
+<section>
+
+
+<!-- ABOUT -->
+
+<div class="section" id="about">
+
+<div class="section-heading">
+
+<h2>Professional Summary</h2>
+
+<div class="section-line"></div>
+
+</div>
+
+<div class="card">
+
+<p class="summary">
+
+Experienced Commercial & Export Professional with 5+ years of experience
+in international trade, export documentation, shipping coordination,
+SAP operations and logistics management.
+
+Experienced in coordinating with suppliers, freight forwarders,
+inspection teams and internal stakeholders to ensure accurate
+documentation and smooth shipment execution.
+
+Strong working knowledge of commercial documentation, PO and SKU
+verification, invoice and packing list checking, shipment follow-up,
+SAP ERP and Microsoft Excel.
+
+</p>
+
+</div>
+
+</div>
+
+
+<!-- CAREER HIGHLIGHTS -->
+
+<div class="section">
+
+<div class="section-heading">
+
+<h2>Career Highlights</h2>
+
+<div class="section-line"></div>
+
+</div>
+
+
+<div class="highlights">
+
+<div class="highlight">
+
+<div class="highlight-number">5+</div>
+
+<div class="highlight-text">
+Years of Professional Experience
+</div>
+
+</div>
+
+
+<div class="highlight">
+
+<div class="highlight-number">3</div>
+
+<div class="highlight-text">
+Major Organizations
+</div>
+
+</div>
+
+
+<div class="highlight">
+
+<div class="highlight-number">Air & Sea</div>
+
+<div class="highlight-text">
+Shipment Coordination
+</div>
+
+</div>
+
+
+<div class="highlight">
+
+<div class="highlight-number">SAP</div>
+
+<div class="highlight-text">
+ERP & Commercial Operations
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- EXPERIENCE -->
+
+<div class="section" id="experience">
+
+<div class="section-heading">
+
+<h2>Professional Experience</h2>
+
+<div class="section-line"></div>
+
+</div>
+
+
+<div class="timeline">
+
+
+<!-- JOB 1 -->
+
+<div class="experience">
+
+<div class="experience-header">
+
+<div>
+
+<div class="job-title">
+Assistant Commercial Co-ordinator
+</div>
+
+<div class="company">
+Brand Machine Group
+</div>
+
+</div>
+
+<div class="duration">
+2025 - Present
+</div>
+
+</div>
+
+
+<ul>
+
+<li>
+Manage export and commercial documentation including commercial
+invoices, packing lists and shipment-related documents.
+</li>
+
+<li>
+Coordinate with suppliers, freight forwarders, inspection teams
+and internal departments to ensure smooth shipment execution.
+</li>
+
+<li>
+Update and maintain commercial and shipment information in SAP ERP.
+</li>
+
+<li>
+Verify PO, SKU, order quantity, CBM, shipping mode and invoice
+information to ensure accuracy.
+</li>
+
+<li>
+Follow up on shipment schedules, documentation requirements
+and goods handover activities.
+</li>
+
+<li>
+Review invoice and packing list information and identify
+documentation discrepancies before shipment.
+</li>
+
+<li>
+Coordinate both Air and Sea shipments with relevant stakeholders.
+</li>
+
+<li>
+Resolve commercial, documentation and logistics-related issues
+through effective communication and follow-up.
+</li>
+
+</ul>
+
+</div>
+
+
+<!-- JOB 2 -->
+
+<div class="experience">
+
+<div class="experience-header">
+
+<div>
+
+<div class="job-title">
+Executive - Commercial Export
+</div>
+
+<div class="company">
+TEAM Group
+</div>
+
+</div>
+
+<div class="duration">
+2023 - 2024
+</div>
+
+</div>
+
+
+<ul>
+
+<li>
+Handled export documentation and commercial activities related
+to international shipments.
+</li>
+
+<li>
+Prepared and checked commercial invoices, packing lists and
+other export documents.
+</li>
+
+<li>
+Coordinated with buyers, suppliers, freight forwarders and
+internal departments.
+</li>
+
+<li>
+Followed up on shipment schedules and ensured required documents
+were available on time.
+</li>
+
+<li>
+Maintained commercial records and shipment-related information.
+</li>
+
+<li>
+Supported export compliance and assisted in resolving
+documentation and shipment-related issues.
+</li>
+
+</ul>
+
+</div>
+
+
+<!-- JOB 3 -->
+
+<div class="experience">
+
+<div class="experience-header">
+
+<div>
+
+<div class="job-title">
+Junior Executive
+</div>
+
+<div class="company">
+DBL Group
+</div>
+
+</div>
+
+<div class="duration">
+2021 - 2023
+</div>
+
+</div>
+
+
+<ul>
+
+<li>
+Supported daily commercial and export operations.
+</li>
+
+<li>
+Prepared and maintained export and shipment documentation.
+</li>
+
+<li>
+Coordinated with internal departments and logistics partners.
+</li>
+
+<li>
+Assisted with shipment tracking and documentation follow-up.
+</li>
+
+<li>
+Maintained commercial records and updated operational information.
+</li>
+
+<li>
+Supported the team in resolving routine commercial and
+logistics-related issues.
+</li>
+
+</ul>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- RESPONSIBILITIES -->
+
+<div class="section">
+
+<div class="section-heading">
+
+<h2>Key Responsibilities</h2>
+
+<div class="section-line"></div>
+
+</div>
+
+<div class="card">
+
+<div class="tags">
+
+<span class="tag">Invoice Verification</span>
+
+<span class="tag">Packing List</span>
+
+<span class="tag">PO Management</span>
+
+<span class="tag">SKU Verification</span>
+
+<span class="tag">CBM Checking</span>
+
+<span class="tag">SAP Updates</span>
+
+<span class="tag">Shipment Follow-up</span>
+
+<span class="tag">Freight Forwarder Coordination</span>
+
+<span class="tag">Air Shipment</span>
+
+<span class="tag">Sea Shipment</span>
+
+<span class="tag">LC Documentation</span>
+
+<span class="tag">Export Compliance</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+</div>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+<p>
+<strong>Saiful Islam</strong> | Commercial & Export Professional
+</p>
+
+<p>
+© 2026 Saiful Islam. All Rights Reserved.
+</p>
+
+</footer>
+
+
+</body>
+</html>
